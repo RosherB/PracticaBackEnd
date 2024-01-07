@@ -1,0 +1,8 @@
+
+
+| Eventos          | Objetivo                                                                   | Posible Uso                                                                                                                                                                          |
+|------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `loadedmetadata` | Este evento se lanza cuando la información del audio ha sido cargada.      | Puede ser valioso para realizar acciones después de que se cargue la información, como por ejemplo poder obtener la duración del audio.                                              |
+| `durationchange` | Este evento se lanza cuando cambia la duración del audio.                  | Puede ser valioso para realizar acciones relacionadas con la duración del audio, como actualizar la interfaz de usuario.                                                             |
+| `timeupdate`     | Este evento se lanza cuando cambia el tiempo del audio ha sido modificado. | Puede ser valioso para poder realizar diferente tipo de acciones  si el audio se esta reproducciendo , como por ejemplo mostrar al usuario de manera visual la reproducción de este. |
+| `ended`          | Este evento se lanza cuando el audio ha terminado.                         | Puede ser valioso para realizar acciones después de que el audio ha terminado, como pasar al siguiente audio.                                                                        |
